@@ -1,5 +1,7 @@
 # fullstack-project4
  
+
+![movie search frontend screenshot](/images/screenshot.png)
  A movie API and frontend. Done using NodeJS, React and MongoDB. A school project
 
  ## Setup
