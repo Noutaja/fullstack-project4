@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	  font-size: large;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  .title {
+	  text-align: center;
+	  font-size: 2rem;
+  }
+  
+  .movie-list-item {
+	  display: flex !important;
+  }
+  
+  .poster-image {
+	  max-height: 200px;
+  }
+  
+  .movie-details {
+	  list-style:none;
+	  padding-left: 1rem !important;
+  }
+  
+  .movie-title {
+	  font-weight: bold;
+  }
+
+  .movie-buttons {
+	  display: flex !important;
+  }
+
+  .hidden {
+	  display: none;
+  }
