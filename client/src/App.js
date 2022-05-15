@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 
 
@@ -121,7 +121,7 @@ function App() {
 	//Format and return an imdb url with the provided id
 	function imdbUrl(id){
 		var url = "https://www.imdb.com/title/tt";
-		var id = id.toString().padStart(7, "0");
+		id = id.toString().padStart(7, "0");
 		url += id;
 		return url;
 	}
@@ -137,7 +137,7 @@ function App() {
 						<ul className="list-group movie-details">
 							<li key={item._id + 2} className="movie-title">{item.title}</li>
 							<li key={item._id + 3}>{item.year}</li>
-							<li key={item._id + 4}><a href={imdbUrl(item.imdb.id)}>IMDB link</a></li>
+							{(item.imdb) ? <li key={item._id + 4}><a href={imdbUrl(item.imdb.id)}>IMDB link</a></li> : null}
 							<li key={item._id + 5} className="movie-buttons">
 								<button
 									type="button"
