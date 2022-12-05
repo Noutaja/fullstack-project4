@@ -5,7 +5,7 @@
  A movie API and frontend. Done using NodeJS, React and MongoDB. A school project
 
  ## Setup
- Add a MongoDB database uri as an environment variable: URI=(db uri). Run nodemon in the backend directory and npm start in client directory.
+ Add a MongoDB database uri as an environment variable: URI=(db uri). Run npm start in client and server directory.
 
  ## Features
  * Search movies either by id (Not supported by the frontend), or search parameters
@@ -45,5 +45,3 @@
  ## To-do
  * Refactor frontend states into objects.
  * Split App.js into multiple smaller files.
- 
- Online version to be provided after Heroku security breach has been resolved.
